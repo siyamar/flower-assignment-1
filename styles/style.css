@@ -12,12 +12,12 @@ body{
 
 .banner{
     /* padding: 30px 30px 0px 150px; */
-    /* padding: 50px 140px 0; */
+    padding: 50px 140px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: rgba(229, 84, 115, 0.10);
-    width: 1750px;
+    /* width: 100vh; */
     height: 800px;
     margin: 0px auto;
 }
@@ -49,26 +49,28 @@ body{
 
 .sign-up{
     display: flex;
-    /* justify-content: space-between; */
-    /* padding: 100px 42px; */
-    width: 1750px;
+    justify-content: space-between;
+    padding: 100px 350px;
+    /* width: 100vh; */
     height: 620px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    margin: 130px auto 0;
+    margin: 130px auto 130px;
 }
 
 .sign-up-container{
     width: 550px;
-    padding: 0 420px;
+    text-align: center;
+    justify-items: center;
+    /* padding: 0 420px; */
 
 }
 .sign-up-title{
     color: #272727;
     font-size: 40px;
     font-weight: 800;
-    text-align: center;
-    padding-top: 230px;
+    /* text-align: center; */
+    padding-top: 130px;
 }
 
 .off{
@@ -76,7 +78,7 @@ body{
 }
 .sign-up-description{
     color: rgba(39, 39, 39, 0.60);
-    text-align: center;
+    /* text-align: center; */
     font-size: 18px;
     font-weight: 400;
 }
