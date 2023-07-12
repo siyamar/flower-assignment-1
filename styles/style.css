@@ -70,6 +70,12 @@ nav li{
     text-decoration: none;
     color: #ffffff;
     font-size: 26px;
+    padding: 16px 26px;
+    border-radius: 8px;
+ }
+
+ nav a:hover{
+    background-color: #ec9eaf;
  }
 
  .nav-button{
