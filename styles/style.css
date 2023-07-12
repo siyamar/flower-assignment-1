@@ -1,5 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Lato', sans-serif;
+    width: 1920px;
+    margin: 0 auto;
 }
 
 .btn-primary{
@@ -8,6 +14,8 @@ body{
     padding: 20px 43px;
     border: none;
     color: white;
+    font-size: 20px;
+    padding: 20px 30px;
 }
 
 .title-section{
@@ -22,7 +30,7 @@ body{
     font-size: 18px;
     font-weight: 400;
     width: 590px;
-    margin: 0 auto;
+    margin: 24px auto;
 }
 
 
@@ -66,27 +74,86 @@ body{
     margin: 130px auto 0px;
 }
 .flower-feature-image{
-    margin-top: 130px;
+    padding: 50px 240px 0;
     display: flex;
     justify-content:space-around;
     gap: 24px;
+}
+
+.flower-feature-image-collection{
+    padding: 110px auto 0;
 }
 
 .flower-feature-image-collection-body{
     width: 464px;
     height: 538px;
     text-align: center;
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+    /* padding: auto auto 0; */
+    /* padding: 110px 76px 0; */
     
 }
 
+.flower-feature-collection-name{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
 
-.flower-feature-image-collection{
-    padding: 110px auto 0;
+#feature-image-1> img{
+    width: 310px;
+    height: 428px;
+    margin: 110px auto 0;
+
+}
+
+#feature-image-2>img{
+    width: 370px;
+    height: 370px;
+    margin: 115px auto 50px;
+}
+
+#feature-image-3 > img{
+    width: 310px;
+    height: 470px;
+    margin: 70px 75px 0;
+}
+
+#feature-image-1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+#feature-image-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+   
+}
+
+#feature-image-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+   
 }
 
 
+/* Service styles */
+
+.service{
+    margin: 130px auto 0;
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    height: 320px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.service-item{
+    margin: auto;
+}
 
 
 /* Sign-up section styles*/
@@ -96,7 +163,7 @@ body{
     justify-content: space-between;
     padding: 100px 350px;
     /* width: 100vh; */
-    height: 620px;
+    height: 600px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     margin: 130px auto 130px;
@@ -105,16 +172,15 @@ body{
 .sign-up-container{
     width: 550px;
     text-align: center;
-    justify-items: center;
-    /* padding: 0 420px; */
+   margin-top: 230px;
 
 }
 .sign-up-title{
     color: #272727;
     font-size: 40px;
     font-weight: 800;
-    /* text-align: center; */
     padding-top: 130px;
+
 }
 
 .off{
@@ -125,4 +191,48 @@ body{
     /* text-align: center; */
     font-size: 18px;
     font-weight: 400;
+}
+
+
+/* Instagram section Styles */
+.instagram-container{
+    width: 1440px;
+    margin: 130px auto 0;
+    
+}
+
+.instagram-content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.instagram-banner{
+    margin-top: 130px;
+    height: 400px;
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    padding: auto;
+}
+
+.input-section{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.input-section > input{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 22px;
+}
+.input-section > button{
+    width: 150px;
+    height: 70px;
+
 }
