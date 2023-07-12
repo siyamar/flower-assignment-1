@@ -34,23 +34,67 @@ body{
     margin: 24px auto;
 }
 
+nav{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E55473;
+    width: 1920px;
+    height: 100px;
+}
+
+.nav-container{
+  display: flex;
+}
+
+.nav-title{
+    color: #fffbfb;
+    font-size: 45px;
+    font-weight: 800;
+    padding-left: 50px;
+    margin-right: 100px;
+}
+
+.nav-container>ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    
+   
+}
+ nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 26px;
+ }
+
+ .nav-button{
+    background-color: #ffffff;
+    color: #E55473;
+    margin-right: 50px;
+    font-size: 22px
+    
+ }
+
+.nav-button:hover{
+    background-color: #f3c7d5e0;
+    color: #ffffff;
+}
 
 .banner{
-    /* padding: 30px 30px 0px 150px; */
     padding: 50px 140px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: rgba(229, 84, 115, 0.10);
-    /* width: 100vh; */
     height: 800px;
     margin: 0px auto;
 }
 
-.flower-pic{
-   /* padding-top: 50px;
-   padding-right: 240px; */
-}
 .banner-title{
     color: #272727;
     font-size: 80px;
@@ -89,8 +133,6 @@ body{
     width: 464px;
     height: 538px;
     text-align: center;
-    /* padding: auto auto 0; */
-    /* padding: 110px 76px 0; */
     
 }
 
@@ -163,7 +205,6 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 100px 350px;
-    /* width: 100vh; */
     height: 600px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
@@ -189,13 +230,13 @@ body{
 }
 .sign-up-description{
     color: rgba(39, 39, 39, 0.60);
-    /* text-align: center; */
     font-size: 18px;
     font-weight: 400;
 }
 
 
 /* Instagram section Styles */
+
 .instagram-container{
     width: 1440px;
     margin: 130px auto 0;
@@ -239,6 +280,7 @@ body{
 }
 
 /* Footer section styles */
+
 footer{
     height: 330px;
     background-color: #111010;
@@ -248,7 +290,7 @@ footer{
 
 }
 
-footer .footer-title{
+.footer-title{
     color: #ffffff;
     font-size: 48px;
     font-weight: 800;
